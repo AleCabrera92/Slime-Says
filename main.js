@@ -59,7 +59,8 @@ function playRound(nextSequence) {
   nextSequence.forEach((color, index) => {
     setTimeout(() => {
       activateTile(color);
-    }, (index + 1) * 800);
+    }, (index + 1) * 1000);
+    //}, (index + 1) * 900);
   });
 }
 
